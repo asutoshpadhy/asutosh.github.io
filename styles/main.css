@@ -9052,7 +9052,7 @@ body {
 }
 #myVideo1 {
   position: relative;
-  left: 0px;
+  left: 0;
   right: 0;
   bottom: 0;
   min-width: 100%; 
@@ -9091,7 +9091,7 @@ body {
 
 /*buttons*/
 .bubbly-button1 {
- background: url(../images/barati_botton.png);
+ background: url(../images/sarati_botton.png);
   background-size: 100%;
   background-repeat: no-repeat;
   width: 80px;
@@ -9117,7 +9117,7 @@ body {
   outline: 0;
 }
 .bubbly-button1:before, .bubbly-button1:after {
- background: url(../images/barati_botton_nocolour.png);
+ background: url(../images/sarati_botton_nocolour.png);
   background-size: 100%;
   position: absolute;
   content: '';
@@ -9143,7 +9143,7 @@ body {
 }
 .bubbly-button1:active {
    transform: scale(0.9);
-  background: url(../images/barati_botton_nocolour.png);
+  background: url(../images/sarati_botton_nocolour.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -9192,7 +9192,7 @@ body {
 
 
 .bubbly-button {
-  background: url(../images/sarati_botton.png);
+  background: url(../images/barati_botton.png);
   background-size: 100%;
   background-repeat: no-repeat;
   width: 80px;
@@ -9242,7 +9242,7 @@ body {
 }
 .bubbly-button:active {
   transform: scale(0.9);
-  background: url(../images/Untitled-2.png);
+  background: url(../images/barati_botton_nocolour.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -9301,6 +9301,15 @@ body {
   }
   #myVideo{
     object-fit: fill;
+  }
+  #myVideo1{
+    object-fit: fill;
+  }
+ a #ab {
+    padding-bottom:  -120px !important;
+  }
+  .bubbly-button{
+    padding-left: 120px;
   }
 }
 
