@@ -151,7 +151,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $(".bubbly-button1").click(function(){
-        $("#form1").toggle();
+        $("#form2").toggle();
     });
 });
 
