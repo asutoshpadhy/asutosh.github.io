@@ -9132,13 +9132,13 @@ body {
 .bubbly-button1:before {
   display: none;
   top: -75%;
-  background-image: radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, transparent 20%, #ff0081 20%, transparent 30%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, transparent 10%, #ff0081 15%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%);
+  background-image: radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, transparent 20%, #ed4f33 20%, transparent 30%), radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, transparent 10%, #ed4f33 15%, transparent 20%), radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, #ed4f33 20%, transparent 20%);
   background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
 }
 .bubbly-button1:after {
   display: none;
   bottom: -75%;
-  background-image: radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, transparent 10%, #ff0081 15%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%);
+  background-image: radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, transparent 10%, #ed4f33 15%, transparent 20%), radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, #ed4f33 20%, transparent 20%);
   background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
 }
 .bubbly-button1:active {
@@ -9181,6 +9181,13 @@ body {
     background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
     background-size: 0% 0%, 0% 0%,  0% 0%,  0% 0%,  0% 0%,  0% 0%;
   }
+}
+
+#bg{
+  background-image: url("../images/imagess.png"); 
+   background-position: center;
+   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 
@@ -9231,13 +9238,13 @@ body {
 .bubbly-button:before {
   display: none;
   top: -75%;
-  background-image: radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, transparent 20%, #ff0081 20%, transparent 30%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, transparent 10%, #ff0081 15%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%);
+  background-image: radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, transparent 20%, #ed4f33 20%, transparent 30%), radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, transparent 10%, #ed4f33 15%, transparent 20%), radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, #ed4f33 20%, transparent 20%);
   background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
 }
 .bubbly-button:after {
   display: none;
   bottom: -75%;
-  background-image: radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, transparent 10%, #ff0081 15%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%);
+  background-image: radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, transparent 10%, #ed4f33 15%, transparent 20%), radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, #ed4f33 20%, transparent 20%), radial-gradient(circle, #ed4f33 20%, transparent 20%);
   background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
 }
 .bubbly-button:active {
@@ -9290,6 +9297,21 @@ body {
    #myVideo{
     display: none;
   }
+    #bg{
+  background-image: url("../images/images-ipad-pro.png"); 
+   background-position: center;
+   background-repeat: no-repeat;
+  background-size: 100%;
+}
+}
+
+@media(width: 768px) {
+  #bg{
+  background-image: url("../images/images_ipad.png"); 
+   background-position: center;
+   background-repeat: no-repeat;
+  background-size: 100%;
+}
 }
 
 /*imppppp*/
@@ -9311,6 +9333,9 @@ body {
   .bubbly-button{
     padding-left: 120px;
   }
+   #bg{
+ background-image: none;
+}
 }
 
 
